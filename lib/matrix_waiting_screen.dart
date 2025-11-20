@@ -99,6 +99,8 @@ class _MatrixWaitingScreenState extends State<MatrixWaitingScreen> {
                   child: Text(
                     widget.title,
                     textAlign: TextAlign.center,
+                    overflow: TextOverflow.ellipsis,
+                    maxLines: 2,
                     style: TextStyle(
                       color: widget.textColor,
                       fontSize: 24,

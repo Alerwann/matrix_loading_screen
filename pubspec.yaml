@@ -1,7 +1,8 @@
 name: matrix_waiting_screen
 description: "A waiting screen with matrix effect."
 version: 0.0.1
-homepage:
+homepage: https://github.com/Alerwann/matrix_loading_screen.git
+repository: https://github.com/Alerwann/matrix_loading_screen.git
 
 
 environment:
