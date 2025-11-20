@@ -59,6 +59,7 @@ class _MatrixWaitingScreenState extends State<MatrixWaitingScreen> {
           speed: speed,
           chars: _chars,
           length: (height / 10).floor(),
+          screenHeight: height,
         ),
       );
     }

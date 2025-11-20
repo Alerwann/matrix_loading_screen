@@ -6,6 +6,7 @@ class MatrixColumn {
   double speed;
   final String chars;
   final int length;
+  final double screenHeight;
   List<String> characters = [];
   final Random _random = Random();
 
@@ -14,6 +15,7 @@ class MatrixColumn {
     required this.speed,
     required this.chars,
     required this.length,
+    required this.screenHeight,
   }) : y = -length * 15.0 {
     _generateCharacters();
   }
@@ -28,7 +30,7 @@ class MatrixColumn {
   void update() {
     y += speed;
 
-    if (y > 800) {
+    if (y > screenHeight) {
       y = -length * 15.0;
       _generateCharacters();
     }
