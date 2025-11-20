@@ -38,8 +38,8 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     if (_isLoading) {
       return const MatrixWaitingScreen(
-        title: "LOADING...",
-        textColor: Colors.red,
+        title: "Loading... ",
+        textColor: Colors.lightGreen,
         backgroundColor: Colors.black,
       );
     }

@@ -13,6 +13,8 @@ and the Flutter guide for
 
 # Matrix Waiting Screen
 
+![Matrix Rain Animation](screenshots/animation.gif)
+
 A Flutter package that provides a cool "Matrix" style rain effect waiting screen. Perfect for loading screens or splash screens.
 
 ## Features
@@ -21,6 +23,12 @@ A Flutter package that provides a cool "Matrix" style rain effect waiting screen
 - **Customizable**: Change the text color and background color.
 - **Responsive**: Adapts to screen size and orientation changes.
 - **Lightweight**: Pure Dart/Flutter implementation.
+
+## Screenshots
+
+|                 Default                 |              Red Theme              |              Blue Theme              |
+| :-------------------------------------: | :---------------------------------: | :----------------------------------: |
+| ![Default](screenshots/screenshot1.png) | ![Red](screenshots/screenshot2.png) | ![Blue](screenshots/screenshot3.png) |
 
 ## Getting started
 
