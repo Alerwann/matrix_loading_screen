@@ -2,3 +2,9 @@
 
 - Initial release.
 - Added `MatrixWaitingScreen` widget
+
+## 0.0.2
+
+- Improved package description in `pubspec.yaml` for better pub.dev scoring.
+- Enhanced `README.md` with detailed installation, usage examples, and customization options.
+- Added comprehensive DartDoc documentation for `MatrixWaitingScreen`, `MatrixColumn`, and `MatrixPainter`.

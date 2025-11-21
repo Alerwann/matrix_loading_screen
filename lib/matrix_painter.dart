@@ -1,10 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:matrix_waiting_screen/matrix_colum.dart';
 
+/// A [CustomPainter] that draws the matrix rain effect.
 class MatrixPainter extends CustomPainter {
+  /// The list of columns to draw.
   final List<MatrixColumn> columns;
+
+  /// The base color of the characters.
   final Color textColor;
 
+  /// Creates a [MatrixPainter].
   MatrixPainter(this.columns, this.textColor);
 
   @override
@@ -23,9 +28,8 @@ class MatrixPainter extends CustomPainter {
       }
 
       final textStyle = TextStyle(
-        color: i == 0
-            ? Colors.white
-            : textColor.withValues(alpha: opacity * 0.8),
+        color:
+            i == 0 ? Colors.white : textColor.withValues(alpha: opacity * 0.8),
         fontSize: 16,
         fontFamily: 'monospace',
         fontWeight: i == 0 ? FontWeight.bold : FontWeight.normal,

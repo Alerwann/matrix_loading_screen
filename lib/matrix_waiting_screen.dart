@@ -5,10 +5,31 @@ import 'package:flutter/material.dart';
 import 'package:matrix_waiting_screen/matrix_colum.dart';
 import 'package:matrix_waiting_screen/matrix_painter.dart';
 
+/// A widget that displays a "Matrix" style digital rain effect.
+///
+/// This widget is useful for loading screens, splash screens, or any part of
+/// the application that requires a waiting indicator with a hacker/cyberpunk theme.
+///
+/// The screen displays falling characters in vertical columns, similar to the
+/// famous digital rain effect. It also displays a central title and a loading
+/// indicator.
 class MatrixWaitingScreen extends StatefulWidget {
+  /// The text displayed in the center box.
+  ///
+  /// Defaults to "LOADING... ".
   final String title;
+
+  /// The color of the falling characters, the central text, and the border.
+  ///
+  /// Defaults to [Colors.green].
   final Color textColor;
+
+  /// The background color of the screen.
+  ///
+  /// Defaults to [Colors.black].
   final Color backgroundColor;
+
+  /// Creates a [MatrixWaitingScreen].
   const MatrixWaitingScreen({
     super.key,
     this.title = "LOADING... ",

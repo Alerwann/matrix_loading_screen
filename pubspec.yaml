@@ -1,12 +1,11 @@
 name: matrix_waiting_screen
-description: "A waiting screen with matrix effect."
-version: 0.0.1
+description: "A highly customizable Flutter package that provides a cool 'Matrix' style digital rain effect waiting screen. Perfect for loading screens, splash screens, or hacker-themed apps."
+version: 0.0.2
 homepage: https://github.com/Alerwann/matrix_loading_screen.git
 repository: https://github.com/Alerwann/matrix_loading_screen.git
 
-
 environment:
-  sdk: ">=3.0.0 <4.0.0" 
+  sdk: ">=3.0.0 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
@@ -18,7 +17,4 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^5.0.0
 
-
 flutter:
-
- 
